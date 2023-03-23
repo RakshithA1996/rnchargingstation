@@ -18,7 +18,7 @@ const ChargingStationNavigator = () => {
                 headerShown: false,
                 animationEnabled: false,
             }}
-            initialRouteName={"MobileNumber"}
+            initialRouteName={"HomePage"}
         >
             <ChargingStation.Screen name="HomePage" component={HomePage} />
             <ChargingStation.Screen name="ChargingPage" component={ChargingPage} />
