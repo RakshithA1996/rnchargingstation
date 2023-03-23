@@ -1,0 +1,36 @@
+{
+  "name": "rnchargingstation",
+  "version": "1.0.0",
+  "description": "charging station plugin",
+  "main": "src/index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RakshithA1996/rnchargingstation.git"
+  },
+  "author": "Rakshith Acharya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RakshithA1996/rnchargingstation/issues"
+  },
+  "homepage": "https://github.com/RakshithA1996/rnchargingstation#readme",
+  "keywords": [
+    "react",
+    "react-native"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "types": "src/index.d.ts",
+  "files": [
+    "src/**/*"
+  ],
+  "dependencies": {
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "react-native-gesture-handler": "^2.9.0",
+    "react-native-screens": "^3.20.0"
+  }
+}
